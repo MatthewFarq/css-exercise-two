@@ -1,9 +1,11 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 1em;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 nav {
+  font-size: 1em;
   background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
@@ -33,6 +35,7 @@ nav {
 }
 
 ul {
+  font-size: 1em;
   list-style-type: none;
   float: right;
 }
@@ -42,11 +45,37 @@ li {
   padding: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff
+}
+
 article {
+  font-size: 1em;
   padding-top: 100px;
 }
 
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+h1 {
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+.author {
+  font-size: 1em
+}
+
+.story-text {
+  font-size: 1.25em;
+  line-height: 1.2;
 }
